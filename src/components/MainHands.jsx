@@ -1,17 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import HelpingHands from "./assets/HelpingHandsRotate.png"
-
+import HelpingHands from "../assets/Img/HelpingHandsRotate.png"
+import Movers from "../assets/Img/Movers.jpg"
 
 const RotateHands = () => {
   return (
     <div>
        <>
 
-
+<div className='bodyWrapper'>
 <div className='HeaderWrapper'>
 
-      <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2FHelpinghandservices626&e=AT3FFnsR3B9j02j9ISydIny34ZuiqWVWWzyCorZbMwU5lnCNc2CyJY2FdkCTf0TEqDJdQIlzcosyx_9n_X0OPfHnhQkLKI1Rili5leE">
+      <a href="https://www.facebook.com/Helpinghandservices626/about">
 
 
 
@@ -30,14 +30,22 @@ const RotateHands = () => {
   </a> 
        <p className='HelpingHandHeading    
            text-xs xxs:text-sm xs:text-2xl sm:text-[1.6rem] md:text-4xl lg:text-6xl 
-          translate-x-[33%] xs:translate-x-[20%] lg:translate-x-[10%] xl:translate-x-[0%]
+           translate-x-[33%] xs:translate-x-[20%] lg:translate-x-[10%] xl:translate-x-[0%]
+           
          '>
              Helping Hand <br /> Community Services
        </p>
-    </div>   
+    </div> 
+  </div>
+  <div className='Movers mt-[11rem] xs:mt-[13rem] sm:mt=[19rem] lg:my-[16rem]'>
+    <img src={Movers} alt="Movers" className='MoversImg rounded-[20px] z-10' />
+ </div>  
   </>
 </div>
   )
 }
 
 export default RotateHands
+
+
+

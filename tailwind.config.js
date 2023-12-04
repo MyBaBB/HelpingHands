@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        varDARKBEAKTOP: "#785001",
+        /* varDARKBEAKTOP: "#785001",
         varMEDBEAKTOP: "#b67902",
         varLIGHTBEAKTOP: "#fca802",
         varDARKDUCKHEAD: "#1e3b28",
@@ -30,7 +30,23 @@ export default {
         varLIGHTBEAK: "#d72d32",
         varDARKSPACE: "#08121c",
         varMEDSPACE: "#1b3854",
-        varLIGHTSPACE: "#264d73"
+        varLIGHTSPACE: "#264d73", */
+        varTEAL: '#008080',
+        varDarkGreek: '#052e16',
+        varDarkTeal: '#006766',
+        varLightTeal: '#4dc4c5',
+
+
+        varBROWN: '#91785d',
+        /* As for the accent colors for borders, you can use any of the following: */
+        
+        varCrimson: '#dc143c',
+        varGold: '#ffd700',
+        varLime: '#00ff00',
+        varIndigo: '#4b0082',
+        varDarkBrown:'#61472a',
+        varBlue: '#008080',
+          
       },
 
 
