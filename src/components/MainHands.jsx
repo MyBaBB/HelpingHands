@@ -94,8 +94,10 @@ const RotateHands = () => {
 
 
 
-        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap mb-2'> Helping Hand Movers</h1> <p className='text-2xl '>    We are the perfect choice for your moving needs</p> <p className='text-2xl p-4'> With over 10 years of experience, we guarantee a move that exceeds your expectations. Our team is dedicated to providing exceptional customer service  and we always strives for <span className='whitespace-nowrap'> five-star rating </span><span className='text-base'> ⭐⭐⭐⭐⭐</span></p>
-        
+        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap mb-2'> Helping Hand Movers</h1> <p className='text-2xl '>    We are the perfect choice for your moving needs</p> <p className='text-2xl p-4'> With over 10 years of experience, we guarantee a move that exceeds your expectations. Our team is dedicated to providing exceptional customer service  and we always strives for <span className='whitespace-nowrap'> five-star rating </span>
+        <span className='text-base'> ⭐⭐⭐⭐⭐</span></p>
+
+       <div className='md:hidden bolck justify-center content-center' > 
         <div className='Movers relative flex w-fit mt-[1.5rem] block'>
        <img src={MoverPerson} alt="Mover Person" className='MoversImg rounded-[18px] z-1' />
         </div>
@@ -111,7 +113,7 @@ const RotateHands = () => {
         <div className='Movers relative flex w-fit mt-[1.5rem] block'>
        <img src={MoverPerson} alt="Mover Person" className='MoversImg rounded-[18px] z-1' />
         </div>
-      
+      </div>
 
             {/* this is the Hidden Image from photoshop, 
                Several images in one Hidden for large screens. */}
