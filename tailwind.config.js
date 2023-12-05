@@ -36,7 +36,7 @@ export default {
         varDarkTeal: '#006766',
         varLightTeal: '#4dc4c5',
 
-
+        varDarkBrown:'#61472a',
         varBROWN: '#91785d',
         /* As for the accent colors for borders, you can use any of the following: */
         
@@ -44,7 +44,7 @@ export default {
         varGold: '#ffd700',
         varLime: '#00ff00',
         varIndigo: '#4b0082',
-        varDarkBrown:'#61472a',
+        
         varBlue: '#008080',
           
       },
