@@ -34,10 +34,7 @@ const RotateHands = () => {
     </div>
   </a>
    
-      <p className='HelpingHandHeading1
-           
-           
-           
+      <p className='HelpingHandHeading1  text-green-50/[.85] 
            xxs:hidden  sm:hidden md:block lg:block xl:block hidden  
            text-[.50rem] xxs:text-[.575rem] xs:text-[.7rem] sm:text-[1rem] 
               md:text-[1.35rem] lg:text-[1.75rem] xl:text-[2rem]
@@ -46,8 +43,9 @@ const RotateHands = () => {
            translate-y-[-.90rem] xs:translate-y-[-1.2rem] lg:translate-y-[-1rem]      '>
              Helping Hand  Community Services
        </p>
-       <p className='HelpingHandHeading2    md:hidden lg:hidden xl:hidden   
-           text-[.50rem] xxs:text-[.575rem] xs:text-[.7rem] sm:text-[1rem] 
+       <p className='HelpingHandHeading2 text-green-50/[.85]   
+             md:hidden lg:hidden xl:hidden   
+             text-[.50rem] xxs:text-[.575rem] xs:text-[.7rem] sm:text-[1rem] 
               md:text-[1.35rem] lg:text-[1.75rem] xl:text-[2rem]
            
            translate-x-[10%] xs:translate-x-[0%] lg:translate-x-[0%] xl:translate-x-[0%]
