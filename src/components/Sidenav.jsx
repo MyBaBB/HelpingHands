@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
  
 // eslint-disable-next-line no-unused-vars
-import React, {useState}
-        from 'react'
+import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail }
         from 'react-icons/ai';
-import {GrProjects}
-        from 'react-icons/gr'; 
+import MovericonPing from "../assets/Img/MovericonPing1.png"
+import { BsPersonRaisedHand } from "react-icons/bs";
 
+import { FaCameraRetro } from "react-icons/fa";
 const Sidenav = () => {
    const [nav, setNav] = useState(false)
        const handleNav = () => {
@@ -26,18 +26,24 @@ const Sidenav = () => {
       nav ? (
         <div className='hiddenMobile fixed  top-0 left-0 right-0 bottom-0 w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20 '>
 
-          <a onClick={handleNav} href="#main" className='w-[65%]
+          <a onClick={handleNav} href="#" className='w-[65%]
            mt-[5rem] md:mt-22 text-black flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
             <AiOutlineHome size={20}  />
             <span className='pl-4 '> Home</span>
           </a>
-          <a onClick={handleNav} href="#work" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-            <GrProjects size={20}  />
-            <span className='pl-4'> Work</span>
+          <a onClick={handleNav} href="#OurPhotos" className='scroll-m-10 text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <FaCameraRetro size={20}  />
+            <span className='pl-4'>Our Photos</span>
           </a>
+          {/* <a onClick={handleNav} href="#AboutUsh2" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <BsPersonRaisedHand size={20}  />
+            <span className='pl-4'>About Us</span>
+          </a> */}
           <a onClick={handleNav} href="#projects" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-            <AiOutlineProject size={20}  />
-            <span className='pl-4'> Projects</span>
+          <div className='MovericonPingWrapper w-[22px]'>
+          <img src={MovericonPing} alt="Mover Icon" />
+         </div>
+            <span className='pl-4'>Affordable Movers</span>
           </a>
 
           
@@ -59,22 +65,24 @@ const Sidenav = () => {
           ml-[1rem]  lg:ml-[-1rem] xl:ml-[1rem]  md:mt-32 lg:mt-38
      '>
       <div className='flex flex-col '>
-        <a href="#main" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+        <a href="#" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
          <AiOutlineHome size={20} />
         </a>
-        <a href="#work" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-         <GrProjects size={20} />
+        <a href="#OurPhotos" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+         <FaCameraRetro size={20} />
         </a>
-        <a href="#projects" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-         <AiOutlineProject size={20} />
-        </a>
+        {/* <a href="#projects" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+         <div className='MovericonPingWrapper w-[22px]'>
+          <img src={MovericonPing} alt="Mover Icon" />
+         </div>
+        </a> */}
         <a href="#contact" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
          <AiOutlineMail size={20} />
        </a>
       </div>
      </div>
                  {/* sideButtons */}
-
+<div></div>
 
      </div>
      </> 
