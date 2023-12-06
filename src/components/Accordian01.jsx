@@ -21,14 +21,12 @@ const Accordian01 = () => {
   };
 
   return (
-     
+      <div>
+        <> 
       <div onClick={toggleAccordion01} 
-      className={`openMenu relative flex justify-center items-center w-full h-full my-4 
+      className={`openMenu relative flex justify-center items-center w-full h-full my-10 
       }`}
-      
     >
-    
-        
         <div className=' md:hidden bg-black  rounded-3xl w-full p-1 m-1 text-left shadow-lg shadow-gray-700
         cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
@@ -69,7 +67,8 @@ const Accordian01 = () => {
             }
         </div>
       </div>
-    
+      </>
+      </div>
   );
 };
 

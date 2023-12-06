@@ -103,7 +103,9 @@ body {
 .RotateHandsWrapper{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
 }
-
+.MovericonWrapper{
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+}
 
 
 #RotateHandsWords::after {
@@ -136,6 +138,11 @@ body {
   text-decoration: underline;
   
 }
+  /*  header above */
+  .TopIntro {
+    font-family: Libre_Baskerville;
+  }
+
   .Movers {
     
     border: 2px solid #61472a;
@@ -143,8 +150,12 @@ body {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
     z-index: 0;
   }
+ @media  (orientation: landscape) and (max-width: 900px) {
+   .sideButtonsWrapper {
+     top: 1rem;
+   }
 
-
+ }
 
  @font-face {
   font-family:'Creepster';
