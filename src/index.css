@@ -40,7 +40,7 @@ body {
   right:0;
   bottom:0;
 }
-
+     
 .HeaderWrapper {
     position:fixed;
     top: 0;
@@ -144,6 +144,44 @@ body {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
     z-index: 0;
   }
+  .AboutUsParagraphAccordian2 {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid #725432;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+  .OurPhotosAccordian1 {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid #725432;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+  .TopArticleWrapper{
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    max-width: 795px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+    margin-top:1rem;
+  }
+  .AboutUsParagraphMdBlock {
+    font-family: Libre_Baskerville;
+    text-align: center;
+    padding: .5rem;
+    max-width: 815px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    z-index: 0;
+  }
+
  @media  (orientation: landscape) and (max-width: 900px) {
    .sideButtonsWrapper {
      top: 1rem;
