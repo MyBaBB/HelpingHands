@@ -18,7 +18,7 @@ const RotateHands = () => {
  
            {/* the Animated Helping Hands */}
       <a href="https://www.facebook.com/Helpinghandservices626/about">
-      <div className='RotateHandsWrapper fixed  flex w-fit
+    <div className='RotateHandsWrapper fixed  flex w-fit
        p-1 shadow-inner  bg-white rounded-full
        -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
        -left-[2rem] xxs:-left-2rem sm:-left-[1.75rem] md:-left-[1.35rem] lg:-left-[.7rem]
@@ -27,9 +27,12 @@ const RotateHands = () => {
           scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] '>
          <div className=' relative     w-fit animate-spin'
               style={{ animationDuration: '9s' }}>
-               <img src={HelpingHands} alt="Helping Hands" />          
+               <img src={HelpingHands} alt="Helping Hands" />
+             
+               
          </div>
-      <div id='RotateHandsWords'></div>
+         {/* <div id='RotateHandsWords'></div> */}
+
     </div>
       </a> {/*  the Animated Helping Hands */}
 
