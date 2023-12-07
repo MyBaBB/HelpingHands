@@ -101,16 +101,17 @@ body {
 
 .MovericonWrapper{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+  border:2px solid #66bb6a;
 }
 
 .RotateHandsWrapper{
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+   
   position: fixed;
   display: flex;
   width: fit-content;
   border-radius: 50%;
   border:2px solid #66bb6a; 
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
   padding:.25rem;
 }
 
@@ -140,7 +141,7 @@ body {
     
     border: 2px solid #61472a;
     border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
     z-index: 0;
   }
  @media  (orientation: landscape) and (max-width: 900px) {

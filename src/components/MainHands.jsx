@@ -115,14 +115,7 @@ const RotateHands = () => {
 
 <Accordian01 />
 
-<article >
-<div   className='AboutUsParagraphWrapper -mt-14  hidden md:block'>
-  <h2 id='AboutUsh2' className='AboutUsh2 ' >About Us</h2>
-   <p className='AboutUsParagraph'>
-  “Welcome to Helping Hands Community Services! We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
-   </p>
- </div>
- </article>
+
 
 
 </div>
