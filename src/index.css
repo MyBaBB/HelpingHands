@@ -181,6 +181,14 @@ body {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
     z-index: 0;
   }
+     .WelcomeWrapper {
+      font-family: Libre_Baskerville;
+      text-align: center;
+      padding: .5rem;
+      max-width: 815px;
+      border-radius: 20px;
+      z-index: 0;
+     }
 
  @media  (orientation: landscape) and (max-width: 900px) {
    .sideButtonsWrapper {

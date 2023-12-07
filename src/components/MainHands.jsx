@@ -83,7 +83,7 @@ const RotateHands = () => {
           
           <Accordian02 />
 
-        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap hidden md:block  mb-0  sm:mb-4 md:ml-[2rem] '> Helping Hand Movers</h1>
+        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap hidden md:block  mb-0  sm:mb-4'> Helping Hand Movers</h1>
 
             {/* TruckSmallScreen */}
          <div className='flex justify-center content-center'>
@@ -116,8 +116,12 @@ const RotateHands = () => {
 <Accordian01 />
 <article >
 <div   className='AboutUsParagraphWrapper -mt-14  hidden md:block'>
-  <h2 id='AboutUsh2' className='AboutUsh2 text-[1.45rem] lg:text-3xl 
-    ml-14 pb-7 ' >Welcome <br />Helping Hands Community Services!</h2>
+        <h2 id='AboutUsh2' className='AboutUsh2 text-[1.45rem]
+           lg:text-3xl      
+           ml-14 pb-7 ' >
+         <span className='WelcomeWrapper text-amber-200 '>Welcome <br />Helping Hands Community Services!
+         </span>
+       </h2>
    <p className='AboutUsParagraphMdBlock text-lg lg:text-2xl 
     ml-[3.5rem] '>
    “We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
