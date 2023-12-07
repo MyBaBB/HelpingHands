@@ -22,7 +22,7 @@ const RotateHands = () => {
        p-1 shadow-inner  bg-white rounded-full
        -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
        -left-[2rem] xxs:-left-2rem sm:-left-[1.75rem] md:-left-[1.35rem] lg:-left-[.7rem]
-        
+        border-2 border-green-400
        >
           scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] '>
          <div className=' relative     w-fit animate-spin'
