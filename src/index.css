@@ -98,38 +98,33 @@ body {
   ;
   }
   
-.RotateHandsWrapper{
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
-}
+
 .MovericonWrapper{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
 }
 
+.RotateHandsWrapper{
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  width: fit-content;
+  border-radius: 50%;
+  border:2px solid #66bb6a; 
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  padding:.25rem;
+}
 
-#RotateHandsWords::after {
-  content: 'Helping';
-  position:fixed;
-  right: 43.5px;
-  top:53px; 
-  color:#61472a;
-  font-family: PT_Serif;
-  font-weight:900;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-  z-index: 50;     
+ #RotateHelpingHands {
+     position:relative;
+
  }
-#RotateHandsWords::before {
-  content: 'Hands';
-  position:fixed;
-  right: 51px;
-  bottom: 52px;
-  color:#61472a;
-  font-family: PT_Serif;
-  font-weight:900;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-  
+ 
+ #RotateHelpingHands2 {
+    position: absolute;
+    left: 42px;
+    top:45px;
  }
+
  #HelpingHandMovers_H1 {
   font-family: DM_Serif_Display;
   font-size: 2rem;

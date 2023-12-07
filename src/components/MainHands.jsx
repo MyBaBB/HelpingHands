@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import HelpingHands from "../assets/Img/HelpingHandsRotate.png"
+import HelpingHands2 from "../assets/Img/HelpingHandsRotate2.png"
 import Movers from "../assets/Img/Movers.jpg"
 import Movericon2 from "../assets/Img/Movericon2.png"
 import TruckSmallScreen from "../assets/Img/TruckSmallScreen.jpg"
@@ -14,26 +15,30 @@ const RotateHands = () => {
        <>
 
 <div className='bodyWrapper -mr-3'>
-  <div className='HeaderWrapper '>
+  <div className='HeaderWrapper'>
  
            {/* the Animated Helping Hands */}
       <a href="https://www.facebook.com/Helpinghandservices626/about">
-    <div className='RotateHandsWrapper fixed  flex w-fit
-       p-1 shadow-inner  bg-white rounded-full
+    <div className='RotateHandsWrapper     
+           bg-white
        -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
        -left-[2rem] xxs:-left-2rem sm:-left-[1.75rem] md:-left-[1.35rem] lg:-left-[.7rem]
-        border-2 border-green-400
+        
        >
           scale-[35%] sm:scale-[50%] md:scale-[60%] lg:scale-[70%] '>
-         <div className=' relative     w-fit animate-spin'
-              style={{ animationDuration: '9s' }}>
-               <img src={HelpingHands} alt="Helping Hands" />
-             
+               <div className=' relative  w-fit animate-spin'
+                style={{ animationDuration: '9s' }}>
+               <img id='RotateHelpingHands' src={HelpingHands2} alt="Helping Hands" />
+               </div>
+         
+               <div>
+               <img id='RotateHelpingHands2' src={HelpingHands} alt="Helping Hands" />
+               </div>            
                
          </div>
          {/* <div id='RotateHandsWords'></div> */}
 
-    </div>
+  
       </a> {/*  the Animated Helping Hands */}
 
            {/*  Helping Hand Heading 1 sm: hidden  */}
