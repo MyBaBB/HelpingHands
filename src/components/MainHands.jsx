@@ -5,11 +5,12 @@ import HelpingHands2 from "../assets/Img/HelpingHandsRotate2.png"
 import Movers from "../assets/Img/Movers.jpg"
 import Movericon2 from "../assets/Img/Movericon2.png"
 import TruckSmallScreen from "../assets/Img/TruckSmallScreen.jpg"
-import Accordian01 from './Accordian01.jsx'
-import Accordian02 from './Accordian02.jsx'
+import Accordion01Images from './Accordion01Images.jsx'
+import Accordion02About from './Accordion02About.jsx'
+import Accordion03Reviews from './Accordion03Reviews.jsx'
+ 
 
-
-const RotateHands = () => {
+const MainHands  = () => {
   return (
     <div>
        <>
@@ -78,15 +79,15 @@ const RotateHands = () => {
            
    
   
-<div className=' relative  block  px-[10px]   sm:px-[4rem]
+<div className='Accordian2Wrapper relative  block  px-[10px]   sm:px-[4rem]
         mt-[4rem]   md:mt-[6.5rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
           
-          <Accordian02 />
+          <Accordion02About />
 
         <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap hidden md:block  mb-0  sm:mb-4'> Helping Hand Movers</h1>
 
             {/* TruckSmallScreen */}
-         <div className='flex justify-center content-center'>
+         <div className='flex justify-center content-center mb-3'>
          <div className='Movers md:hidden relative flex w-fit  mt-1.5 md:mt-[1.2rem] block'>
        <img src={TruckSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1' />
          </div>      
@@ -94,15 +95,17 @@ const RotateHands = () => {
             {/* TruckSmallScreen */}
 
             {/*  TopIntro */}
-<article className='TopArticleWrapper  md:ml-[4rem]'>
-        <h2 className='TopIntro text-lg md:text-2xl pt-2 md:px-[4rem] mb-2 text-amber-200    '>    We are the perfect choice for your moving needs
+<article className='TopArticleWrapper  md:ml-[5rem] '>
+        <h2 className='TopIntro text-lg md:text-2xl pt-2 md:px-[4rem] xl:l mb-2 text-amber-200    '>    We are the perfect choice for your moving needs
         </h2>
         <p className='text-2xl  md:px-[4rem]'>
            With over 10 years of experience, We guarantee a move that exceeds your expectations. Our team is dedicated to providing exceptional customer service  and we always strive for
            <span className='whitespace-nowrap'> five-star rating </span>
            <span className='text-base'><br /> ⭐⭐⭐⭐⭐</span>
+          
         </p>
 </article>
+
             {/*  TopIntro */}
             <div id='OurPhotos' className=' sm:scroll-mt-[8rem] '>
             {/* Several images in one Hidden for large screens. */}
@@ -112,22 +115,32 @@ const RotateHands = () => {
        <img src={Movers} alt="Movers" className='MoversImg rounded-[18px] z-0' />
        </div>
             {/* Several images in one Hidden for large screens. */} 
+           
 
-<Accordian01 />
+<Accordion03Reviews />
 <article >
 <div   className='AboutUsParagraphWrapper -mt-14  hidden md:block'>
-        <h2 id='AboutUsh2' className='AboutUsh2 text-[1.45rem]
+
+        <p id='AboutUsh2' className='AboutUsh2 text-[1.45rem]
            lg:text-3xl      
-           ml-14 pb-7 ' >
-         <span className='WelcomeWrapper text-amber-200 '>Welcome <br />Helping Hands Community Services!
-         </span>
-       </h2>
+           ml-14 pb-7  pl-4' >
+           
+         
+         
+       </p>
    <p className='AboutUsParagraphMdBlock text-lg lg:text-2xl 
-    ml-[3.5rem] '>
+    ml-[3.5rem] xl:ml-[5rem] '>
    “We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
    </p>
  </div>
  </article>
+<article>
+<Accordion01Images/>
+</article>
+
+
+
+
 
  </div>
 
@@ -137,7 +150,7 @@ const RotateHands = () => {
   )
 }
 
-export default RotateHands
+export default MainHands 
 
 
 
