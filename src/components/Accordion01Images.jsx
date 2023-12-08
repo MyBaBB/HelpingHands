@@ -21,19 +21,19 @@ const Accordion01 = () => {
   };
 
   return (
-      <div className='p-[-7rem]'>
+      <div className='border-2 border-red-500 relative justify-center content-center  w-full '>
         <> 
       <div onClick={toggleAccordion01Images} 
         className={`openMenu  relative flex justify-center items-center w-full h-full my-10 
       }`}
     >
-        <div className='OurPhotosAccordion1   md:hidden bg-[#41301b]  rounded-3xl w-full   m-1   
+        <div className='OurPhotosAccordion1   lg:hidden bg-[#41301b]  rounded-3xl w-full   m-1   
         cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
           <div  className='flex justify-center'>
             <button  className='text-amber-100  text-base sm:text-2xl p-1 font-extrabold'
                        style={{ textShadow: '1px 1px 2px black' }}>
-            <span className='absolute left-4 rotate-180 text-base md:text-3xl  ' 
+            <span className='absolute rotate-180 text-base md:text-3xl  ' 
              style={{ textShadow: '-1px -1px 2px black' }}></span>
  Our Photos
             </button>

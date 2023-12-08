@@ -61,8 +61,8 @@ const Sidenav = () => {
 
 
                  {/* sideButtons */}
-      <div className='sideButtonsWrapper hidden md:block  fixed  z-10 
-           md:mt-32  lg:-ml-4
+   {/*    <div className='sideButtonsWrapper hidden md:fixed   z-10 
+            
      '>
       <div className='flex flex-col '>
         <a href="#" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -71,18 +71,20 @@ const Sidenav = () => {
         <a href="#OurPhotos" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
          <FaCameraRetro size={20} />
         </a>
-        {/* <a href="#projects" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+        <a href="#projects" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
          <div className='MovericonPingWrapper w-[22px]'>
           <img src={MovericonPing} alt="Mover Icon" />
          </div>
-        </a> */}
+        </a>
         <a href="#contact" className='rounded-full text-black shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
          <AiOutlineMail size={20} />
        </a>
       </div>
-     </div>
+     </div> */}
                  {/* sideButtons */}
-<div></div>
+<div>
+
+</div>
 
      </div>
      </> 

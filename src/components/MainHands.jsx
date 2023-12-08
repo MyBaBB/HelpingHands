@@ -15,7 +15,7 @@ const MainHands  = () => {
     <div>
        <>
 
-<div className='bodyWrapper -mr-3'>
+<div className='bodyWrapper'>
   <div className='HeaderWrapper'>
  
            {/* the Animated Helping Hands */}
@@ -95,8 +95,8 @@ const MainHands  = () => {
             {/* TruckSmallScreen */}
 
             {/*  TopIntro */}
-<article className='TopArticleWrapper  md:ml-[5rem] '>
-        <h2 className='TopIntro text-lg md:text-2xl pt-2 md:px-[4rem] xl:l mb-2 text-amber-200    '>    We are the perfect choice for your moving needs
+<article className='TopArticleWrapper  '>
+        <h2 className='TopIntro text-lg md:text-2xl pt-2 md:px-[4rem]  mb-2 text-amber-200    '>    We are the perfect choice for your moving needs
         </h2>
         <p className='text-2xl  md:px-[4rem]'>
            With over 10 years of experience, We guarantee a move that exceeds your expectations. Our team is dedicated to providing exceptional customer service  and we always strive for
@@ -111,25 +111,26 @@ const MainHands  = () => {
             {/* Several images in one Hidden for large screens. */}
        <div  className='Movers -scroll-mt-80 relative flex w-fit mt-[1.5rem]
         hidden md:block       
-        md:ml-14 lg:ml-16 xl:ml-20'>
+          '>
        <img src={Movers} alt="Movers" className='MoversImg rounded-[18px] z-0' />
        </div>
             {/* Several images in one Hidden for large screens. */} 
            
 
-<Accordion03Reviews />
+
 <article >
 <div   className='AboutUsParagraphWrapper -mt-14  hidden md:block'>
 
         <p id='AboutUsh2' className='AboutUsh2 text-[1.45rem]
            lg:text-3xl      
-           ml-14 pb-7  pl-4' >
+           ' >
            
          
          
        </p>
+       <Accordion03Reviews />
    <p className='AboutUsParagraphMdBlock text-lg lg:text-2xl 
-    ml-[3.5rem] xl:ml-[5rem] '>
+    '>
    “We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
    </p>
  </div>
