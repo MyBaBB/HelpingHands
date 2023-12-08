@@ -10,7 +10,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  min-width: 200px;
   color-scheme: light dark;
   
    
@@ -27,7 +27,7 @@ body {
 
   margin: 0;
   display: flex;
-  min-width: 265px;
+  min-width: 200px;
   min-height: 100vh;
   padding:2px;
   background-color:#052e16;
@@ -184,8 +184,8 @@ body {
   .AboutUsParagraphMdBlock {
     font-family: Libre_Baskerville;
     text-align: center;
-    padding: .5rem;
-    max-width: 815px;
+    padding-inline: 3rem;
+    margin-top:-2rem;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
     z-index: 0;
@@ -198,6 +198,38 @@ body {
       border-radius: 20px;
       z-index: 0;
      }
+
+       /* reviews below */
+       .ReviewsPersonHorizontalRule{
+        border: 2px solid #725432;
+         width: 70%;
+         margin: auto;
+         margin-top: .5rem;
+         margin-bottom: .5rem; 
+        }
+        .ReviewsPersonStarRating {
+          border:2px solid #725432 ;
+          border-radius: 4px;
+          font-size: 1.5rem;
+          margin: auto;
+          margin-top: .5rem;
+          margin-bottom: .5rem;
+        }
+          .ReviewsPersonDate {
+            font-size: .755rem;
+            margin: auto;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+          }
+           .ReviewsPersonName {
+            padding-top: 3rem;
+            font-size: 1.75rem;
+            margin: auto;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            text-decoration: underline;
+          }
+
 
  @media  (orientation: landscape) and (max-width: 900px) {
    .sideButtonsWrapper {

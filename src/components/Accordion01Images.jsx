@@ -21,44 +21,45 @@ const Accordion01 = () => {
   };
 
   return (
-      <div className='border-2 border-red-500 relative justify-center content-center  w-full '>
-        <> 
+      <div className='content-center w-full mx-auto'>
+        <>
+       <div className=' p-1'>  
       <div onClick={toggleAccordion01Images} 
-        className={`openMenu  relative flex justify-center items-center w-full h-full my-10 
+        className={`openMenu relative flex justify-center items-center
+         mx-auto w-[80%] h-full  
       }`}
     >
-        <div className='OurPhotosAccordion1   lg:hidden bg-[#41301b]  rounded-3xl w-full   m-1   
-        cursor-pointer hover:scale-105 ease-in-out duration-300'>
+        <div className='OurPhotosAccordion1  relative  justify-center content-center mx-auto md:hidden bg-[#41301b]  rounded-3xl w-full   -mx-12 cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
-          <div  className='flex justify-center'>
+          <div  className='flex justify-center content-center mx-auto min-w-[240px]'>
             <button  className='text-amber-100  text-base sm:text-2xl p-1 font-extrabold'
                        style={{ textShadow: '1px 1px 2px black' }}>
-            <span className='absolute rotate-180 text-base md:text-3xl  ' 
+            <span className='relative  text-base md:text-3xl  ' 
              style={{ textShadow: '-1px -1px 2px black' }}></span>
  Our Photos
             </button>
           </div>
           {isOpen &&
             <>
-            <div   className=' flex justify-center content-center '>
+            <div   className=' flex justify-center content-center min-w-[240px] '>
             <div className='MoversSmallScreen  md:hidden relative flex w-fit mt-[.25rem] block'>
-              <img src={TwoGuysSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1' />
+              <img src={TwoGuysSmallScreen} alt="Two Guys" className=' rounded-[18px] min-w-[240px] z-1' />
             </div>
           </div><div className='flex justify-center content-center'>
-              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={MoverPerson} alt="Mover Person" className=' rounded-[18px] z-1' />
+              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] min-w-[240px] block'>
+                <img src={MoverPerson} alt="Mover Person" className=' rounded-[18px]min-w-[240px] z-1' />
               </div>
             </div><div className='flex justify-center content-center'>
-              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
+              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] min-w-[240px] block'>
                 <img src={PianoSmallScreen} alt="Piano Small Screen" className=' rounded-[18px] z-1' />
               </div>
             </div><div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={WarehouseWorkerSmallScreen} alt="Wharehouse Worker SmallScreen" className=' rounded-[18px] z-1' />
+                <img src={WarehouseWorkerSmallScreen} alt="Wharehouse Worker SmallScreen" className=' rounded-[18px] min-w-[240px] z-1' />
               </div>
             </div><div className='flex justify-center content-center'>
-              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={StorageSmallScreen} alt="Storage Small Screen" className=' rounded-[18px] z-1' />
+              <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] min-w-[240px] block'>
+                <img src={StorageSmallScreen} alt="Storage Small Screen" className=' rounded-[18px] min-w-[240px] z-1' />
               </div>
             </div>
   
@@ -67,6 +68,7 @@ const Accordion01 = () => {
             
             }
         </div>
+      </div>
       </div>
       </>
       </div>
