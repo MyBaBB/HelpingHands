@@ -17,7 +17,7 @@ const Instagram = () => {
          </div>
          </a>
      
-      <button onClick={() => window.location.href = 'tel:469-667-3305'}>
+      <button onClick={() => window.location.href = 'tel:626-371-4331'}>
             <div className='OldPhoneImage w-[70px] xs:w-[80px] relative  content-center border-2 border-[#614829] flex w-fit rounded-[14px]   '>
                <img src={OldPhoneImg} alt="OldPhoneImg" className='rounded-xl' />
         </div>

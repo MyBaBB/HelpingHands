@@ -39,20 +39,27 @@ const Sidenav = () => {
             <BsPersonRaisedHand size={20}  />
             <span className='pl-4'>About Us</span>
           </a> */}
-          <a onClick={handleNav} href="#projects" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+          <a onClick={handleNav} href="#Reviews" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
           <div className='MovericonPingWrapper w-[22px]'>
           <img src={MovericonPing} alt="Mover Icon" />
          </div>
-            <span className='pl-4'>Affordable Movers</span>
+            <span className='pl-4'>Reviews</span>
           </a>
 
           
           
-          <a onClick={handleNav} href="#contact" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+          <button onClick={() => window.location.href = 'tel:626-371-4331'}  className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
             <AiOutlineMail size={20}  />
-            <span className='pl-4'>Contact</span>
-          </a>
+            <span className='pl-4   '>Contact</span>
+          </button>
         </div>
+ 
+
+
+
+
+
+
         )
         : (
         '' 
