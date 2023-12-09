@@ -29,14 +29,14 @@ const Accordion01 = () => {
          mx-auto w-[80%] h-full  
       }`}
     >
-        <div className='OurPhotosAccordion1  relative  justify-center content-center mx-auto md:hidden bg-[#41301b]  rounded-3xl w-full     cursor-pointer hover:scale-105 ease-in-out duration-300'>
+        <div className='OurPhotosAccordion1  relative  justify-center content-center mx-auto md:hidden bg-[#41301b]  rounded-3xl w-full  cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
           <div  className='flex justify-center content-center mx-auto '>
             <button  className='text-amber-100  text-base sm:text-2xl  font-extrabold'
                        style={{ textShadow: '1px 1px 2px black' }}>
             <span className='relative text-base md:text-3xl  ' 
              style={{ textShadow: '-1px -1px 2px black' }}></span>
- Our Photos
+ Photos
             </button>
           </div>
           {isOpen &&

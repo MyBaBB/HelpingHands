@@ -11,14 +11,14 @@ const Accordion03 = () => {
   return (
       <div >
         <> 
-        <div className=' relative flex justify-center content-center mx-auto     w-[80%]' >
+        <div className=' relative flex justify-center content-center mx-auto     w-[87%]' >
         <div onClick={toggleAccordion03Reviews} 
         className={`openMenu  relative flex justify-center items-center w-full  h-full   mx-auto 
       }`} 
     >
         <div className='Accordion03ReviewsWrapper  relative bg-[#41301b]  rounded-3xl w-full mt-2 h-full cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
-          <div  className='flex justify-center'>
+          <div  className='flex justify-center mx-auto content-center'>
             <button  className='text-amber-100  text-base sm:text-2xl font-extrabold '
                        style={{ textShadow: '1px 1px 2px black' }}>
             <span className='relative  text-base md:text-3xl  ' 

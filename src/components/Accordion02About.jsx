@@ -16,7 +16,7 @@ const Accordion02 = () => {
       items-center w-full h-full  mb-2
       }`}
     >
-        <div className='AboutUsParagraphAccordion2 md:hidden bg-[#41301b]   rounded-3xl w-[80%] p-2 m-2    shadow-lg shadow-black     mt-2
+        <div className='AboutUsParagraphAccordion2 md:hidden bg-[#41301b]   rounded-3xl w-[80%] p-2 m-2 shadow-lg shadow-black  mt-2
         cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
           <div className=' flex justify-center '>
