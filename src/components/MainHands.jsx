@@ -81,7 +81,7 @@ const MainHands  = () => {
  <Instagram/>
   
 <div className='Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]
-        mt-[.5rem]   md:mt-[6.5rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
+        mt-[.5rem]   md:mt-[8rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
           
           
 
