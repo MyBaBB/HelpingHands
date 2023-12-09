@@ -8,7 +8,7 @@ import TruckSmallScreen from "../assets/Img/TruckSmallScreen.jpg"
 import Accordion01Images from './Accordion01Images.jsx'
 import Accordion02About from './Accordion02About.jsx'
 import Accordion03Reviews from './Accordion03Reviews.jsx'
- 
+import Instagram from './Instagram.jsx'
 
 const MainHands  = () => {
   return (
@@ -19,7 +19,7 @@ const MainHands  = () => {
   <div className='HeaderWrapper'>
  
            {/* the Animated Helping Hands */}
-      <a href="https://www.facebook.com/Helpinghandservices626/about">
+       
     <div className='RotateHandsWrapper     
            bg-white
        -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
@@ -40,7 +40,7 @@ const MainHands  = () => {
          {/* <div id='RotateHandsWords'></div> */}
 
   
-      </a> {/*  the Animated Helping Hands */}
+       {/*  the Animated Helping Hands */}
 
            {/*  Helping Hand Heading 1 sm: hidden  */}
        <p className='HelpingHandHeading1  text-amber-100 
@@ -76,11 +76,12 @@ const MainHands  = () => {
 
     </div>
  </div>     {/*above is the HeaderWrapper */} 
-           
-   
+          
+      
+ <Instagram/>
   
 <div className='Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]
-        mt-[4rem]   md:mt-[6.5rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
+        mt-[.5rem]   md:mt-[6.5rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
           
           
 
