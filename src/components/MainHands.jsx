@@ -82,7 +82,7 @@ const MainHands  = () => {
 <div className='Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]
         mt-[4rem]   md:mt-[6.5rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
           
-          <Accordion02About />
+          
 
         <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap  text-amber-100 hidden md:block pb-4 mb-0  sm:mb-4 mt-8'> Helping Hand Movers</h1>
 
@@ -132,20 +132,23 @@ const MainHands  = () => {
     <div className='relative flex justify-center content-center
              mx-auto w-[100%] mt-4 '>
           <article className='TopArticleWrapper'>
-            <h2 className='TopIntro text-lg md:text-2xl pt-2 md:px-[2rem] mb-2 text-amber-200'> We are the perfect choice for your moving needs.
+            <h2 className='TopIntro text-xl  md:text-2xl pt-2 md:px-[2rem] mb-2 text-amber-200'> We are the perfect choice for your moving needs.
              </h2>
-                <p className='text-2xl  md:px-[4rem] p-2'>
+             <Accordion02About />
+                <p className='text-2xl  md:px-[1rem] p-2'>
            With over 10 years of experience, We guarantee a move that exceeds your expectations. Our team is dedicated to providing exceptional customer service  and we always strive for
            <span className='whitespace-nowrap'> five-star rating </span>
-           <span className='text-base'><br /> ⭐⭐⭐⭐⭐</span>
+           <span className='text-base'><Accordion03Reviews /> ⭐⭐⭐⭐⭐</span>
                 </p>
+                
+                <Accordion01Images/>
          </article>
 </div>
 
       
-<Accordion03Reviews />
+
    
- <Accordion01Images/>
+ 
 
  
 

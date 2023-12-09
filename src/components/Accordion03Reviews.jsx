@@ -13,13 +13,13 @@ const Accordion03 = () => {
         <> 
         <div className=' relative flex justify-center content-center mx-auto     w-[80%]' >
         <div onClick={toggleAccordion03Reviews} 
-        className={`openMenu  relative flex justify-center items-center w-full  h-full my-10 mt-4 mx-auto 
+        className={`openMenu  relative flex justify-center items-center w-full  h-full   mx-auto 
       }`} 
     >
-        <div className='Accordion03ReviewsWrapper  relative   bg-[#41301b]  rounded-3xl w-full   mt-2 sm:mb-8 h-full cursor-pointer hover:scale-105 ease-in-out duration-300'>
+        <div className='Accordion03ReviewsWrapper  relative bg-[#41301b]  rounded-3xl w-full mt-2 h-full cursor-pointer hover:scale-105 ease-in-out duration-300'>
         
           <div  className='flex justify-center'>
-            <button  className='text-amber-100  text-base sm:text-2xl p-1 font-extrabold '
+            <button  className='text-amber-100  text-base sm:text-2xl font-extrabold '
                        style={{ textShadow: '1px 1px 2px black' }}>
             <span className='relative  text-base md:text-3xl  ' 
              style={{ textShadow: '-1px -1px 2px black' }}></span>

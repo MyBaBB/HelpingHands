@@ -160,7 +160,7 @@ body {
     border: 2px solid #725432;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
-    z-index: 0;
+    z-index: 2;
   }
     .Accordion03ReviewsWrapper {
     font-family: Libre_Baskerville;
