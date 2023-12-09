@@ -55,8 +55,8 @@ const MainHands  = () => {
            {/*  Helping Hand Heading 2 lg: hidden */}
        <p className='HelpingHandHeading2 text-amber-100    
              md:hidden lg:hidden xl:hidden   
-             text-[.6rem] xxs:text-[.85rem] xs:text-[1.2rem] sm:text-[1.5rem] 
-              md:text-[1.35rem] lg:text-[1.75rem] xl:text-[2rem]
+             text-[.6rem] xxs:text-[.85rem] xs:text-[1.2rem] sm:text-[1.2rem] 
+              md:text-[1.55rem] lg:text-[1.75rem] xl:text-[2rem]
               mt-[-12px] sm:mt-[-10px]
              
            translate-y-[-.90rem] xs:translate-y-[-1.2rem] lg:translate-y-[-1rem]      '>
@@ -81,7 +81,7 @@ const MainHands  = () => {
  <Instagram/>
   
 <div className='Accordian2Wrapper relative  block  px-[10px]   sm:px-[.5rem]
-        mt-[.5rem]   md:mt-[8rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
+        mt-[.5rem]   md:mt-[1rem] text-green-50' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}> 
           
           
 
