@@ -20,7 +20,7 @@ const MainHands  = () => {
  
            {/* the Animated Helping Hands */}
          
-     <article className='HiddenTitleforSeo absolute '><h1>The Best Mover in Pasadena, California</h1>
+     <article className='HiddenTitleforSeo absolute left-[-100rem]'><h1>The Best Mover in Pasadena, California</h1>
      </article>
 
     <div className='RotateHandsWrapper     
@@ -109,13 +109,13 @@ const MainHands  = () => {
          
          
        </p>
-   <article>
-       <h2 className='hiddenh2 absolute left-[-200rem] text-green-950'>Moving Company</h2>
+   
+         
    <p className='AboutUsParagraphMdBlock text-lg lg:text-2xl  p-4 
     '>
    “We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
    </p>
-   </article>
+ 
    </div>
 
 
