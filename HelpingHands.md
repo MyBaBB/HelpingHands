@@ -8,4 +8,5 @@ do the work here and then update it from time to time.  Keep it separated to avo
 
 I loose a lot of time playing with the original sometimes.
 
-
+so don't mix it up too much so that I can use components easily. 
+   Break the components down in that folder when gets too crowded....
