@@ -19,7 +19,10 @@ const MainHands  = () => {
   <div className='HeaderWrapper'>
  
            {/* the Animated Helping Hands */}
-       
+         
+     <article className='HiddenTitleforSeo absolute '><h1>The Best Mover in Pasadena, California</h1>
+     </article>
+
     <div className='RotateHandsWrapper     
            bg-white
        -top-[2.5rem] xs:-top-[2.5rem] sm:-top-[1.95rem]  md:-top-[1.35rem] lg:-top-[.8rem]
@@ -85,12 +88,12 @@ const MainHands  = () => {
           
           
 
-        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap  text-amber-100 hidden md:block pb-7 mb-0  sm:mb-4 mt-[-1rem]'> Helping Hand Movers</h1>
+        <h2 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap  text-amber-100 hidden md:block pb-7 mb-0  sm:mb-4 mt-[-1rem]'> Helping Hand Movers</h2>
 
             {/* TruckSmallScreen */}
          <div className='flex justify-center content-center mb-3'>
          <div className='Movers md:hidden relative flex w-fit  mt-1.5 md:mt-[1.2rem] block  ]'>
-       <img src={TruckSmallScreen} alt="Two Guys" width={250} height={250} className=' rounded-[18px] z-1' />
+       <img src={TruckSmallScreen} alt="Two Guys Moving" width={250} height={250} className=' rounded-[18px] z-1' />
          </div>      
          </div>
             {/* TruckSmallScreen */}
@@ -106,11 +109,13 @@ const MainHands  = () => {
          
          
        </p>
-      
+   <article>
+       <h2 className='hiddenh2 absolute left-[-200rem] text-green-950'>Moving Company</h2>
    <p className='AboutUsParagraphMdBlock text-lg lg:text-2xl  p-4 
     '>
    “We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
    </p>
+   </article>
    </div>
 
 
