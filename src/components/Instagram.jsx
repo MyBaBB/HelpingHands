@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import InstagramReels2 from "../assets/Img/InstagramReels2.jpg"
-import FacebookMover from "../assets/Img/FacebookMover.jpg"
-import OldPhoneImg from "../assets/Img/OldPhone.jpg"
+import InstagramReels2 from "../assets/Img/InstagramReels2.webp"
+import FacebookMover from "../assets/Img/FacebookMover.webp"
+import OldPhoneImg from "../assets/Img/OldPhone.webp"
 
 const Instagram = () => {
   return (

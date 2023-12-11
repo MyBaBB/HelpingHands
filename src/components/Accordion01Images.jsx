@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import MoverPerson from "../assets/Img/MoverPersonSmallScreen.jpg"
-import TwoGuysSmallScreen from "../assets/Img/TwoGuysSmallScreen.jpg"
+import MoverPerson from "../assets/Img/MoverPersonSmallScreen.webp"
+import TwoGuysSmallScreen from "../assets/Img/TwoGuysSmallScreen.webp"
  
-import PianoSmallScreen from "../assets/Img/PianoSmallScreen.jpg"
-import WarehouseWorkerSmallScreen from "../assets/Img/WarehouseWorkerSmallScreen.jpg"
-import StorageSmallScreen from "../assets/Img/StorageSmallScreen.jpg"
+import PianoSmallScreen from "../assets/Img/PianoSmallScreen.webp"
+import WarehouseWorkerSmallScreen from "../assets/Img/WarehouseWorkerSmallScreen.webp"
+import StorageSmallScreen from "../assets/Img/StorageSmallScreen.webp"
 
 
 
@@ -43,26 +43,36 @@ const Accordion01 = () => {
             <>
             <div   className=' flex justify-center content-center  '>
             <div className='MoversSmallScreen  md:hidden relative flex w-fit mt-[.25rem] block'>
-              <img src={TwoGuysSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1'
+              <img src={TwoGuysSmallScreen} alt="Two Guys" width={480} height={480} className=' rounded-[18px] z-1'
                     loading="lazy" />
             </div>
-          </div><div className='flex justify-center content-center'>
+          </div>
+
+            <div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem]
                  block'>
-                <img src={MoverPerson} alt="Mover Person" className=' rounded-[18px] z-1' 
+                <img src={MoverPerson} alt="Mover Person" width={480} height={480}  className=' rounded-[18px] z-1' 
                     loading="lazy"/>
               </div>
-            </div><div className='flex justify-center content-center'>
+            </div>
+
+            <div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={PianoSmallScreen} alt="Piano Small Screen" className=' rounded-[18px] z-1'loading="lazy" />
+                <img src={PianoSmallScreen} alt="Piano Small Screen" width={480} height={480}   className=' rounded-[18px] z-1'loading="lazy" />
               </div>
-            </div><div className='flex justify-center content-center'>
+            </div>
+            
+            <div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={WarehouseWorkerSmallScreen} alt="Warehouse Worker SmallScreen" className=' rounded-[18px]  z-1'loading="lazy" />
+                <img src={WarehouseWorkerSmallScreen} alt="Warehouse Worker SmallScreen"
+                width={480} height={480}   className=' rounded-[18px]  z-1'loading="lazy" />
               </div>
-            </div><div className='flex justify-center content-center'>
+            </div>
+            
+            <div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem]  block'>
-                <img src={StorageSmallScreen} alt="Storage Small Screen" className=' rounded-[18px] z-1'loading="lazy" />
+                <img src={StorageSmallScreen} alt="Storage Small Screen" width={480} height={480} 
+                 className=' rounded-[18px] z-1'loading="lazy" />
               </div>
             </div>
   

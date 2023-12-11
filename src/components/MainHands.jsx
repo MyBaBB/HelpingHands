@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import HelpingHands from "../assets/Img/HelpingHandsRotate.png"
-import HelpingHands2 from "../assets/Img/HelpingHandsRotate2.png"
-import Movers from "../assets/Img/Movers.jpg"
-import Movericon2 from "../assets/Img/Movericon2.png"
-import TruckSmallScreen from "../assets/Img/TruckSmallScreen.jpg"
+import HelpingHands2 from "../assets/Img/HelpingHandsRotate2.webp"
+import Movers from "../assets/Img/Movers.webp"
+import Movericon2 from "../assets/Img/Movericon2.webp"
+import TruckSmallScreen from "../assets/Img/TruckSmallScreen.webp"
 import Accordion01Images from './Accordion01Images.jsx'
 import Accordion02About from './Accordion02About.jsx'
 import Accordion03Reviews from './Accordion03Reviews.jsx'
@@ -90,7 +90,7 @@ const MainHands  = () => {
             {/* TruckSmallScreen */}
          <div className='flex justify-center content-center mb-3'>
          <div className='Movers md:hidden relative flex w-fit  mt-1.5 md:mt-[1.2rem] block  ]'>
-       <img src={TruckSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1' />
+       <img src={TruckSmallScreen} alt="Two Guys" width={250} height={250} className=' rounded-[18px] z-1' />
          </div>      
          </div>
             {/* TruckSmallScreen */}
@@ -123,7 +123,7 @@ const MainHands  = () => {
        <div  className='Movers -scroll-mt-80 relative flex w-fit mt-[1.5rem]
         hidden md:block min-w-[240px]      
           '>
-       <img src={Movers} alt="Movers" className='MoversImg rounded-[18px] z-0' />
+       <img src={Movers} alt="Movers" width={645} height={322} className='MoversImg rounded-[18px] z-0' />
        </div>
   </div>
  </div>

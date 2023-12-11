@@ -4,7 +4,7 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail }
         from 'react-icons/ai';
-import MovericonPing from "../assets/Img/MovericonPing1.png"
+import MovericonPing from "../assets/Img/MovericonPing1.webp"
 import { BsPersonRaisedHand } from "react-icons/bs";
 
 import { FaCameraRetro } from "react-icons/fa";
