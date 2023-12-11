@@ -43,24 +43,26 @@ const Accordion01 = () => {
             <>
             <div   className=' flex justify-center content-center  '>
             <div className='MoversSmallScreen  md:hidden relative flex w-fit mt-[.25rem] block'>
-              <img src={TwoGuysSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1' />
+              <img src={TwoGuysSmallScreen} alt="Two Guys" className=' rounded-[18px] z-1'
+                    loading="lazy" />
             </div>
           </div><div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem]
                  block'>
-                <img src={MoverPerson} alt="Mover Person" className=' rounded-[18px] z-1' />
+                <img src={MoverPerson} alt="Mover Person" className=' rounded-[18px] z-1' 
+                    loading="lazy"/>
               </div>
             </div><div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={PianoSmallScreen} alt="Piano Small Screen" className=' rounded-[18px] z-1' />
+                <img src={PianoSmallScreen} alt="Piano Small Screen" className=' rounded-[18px] z-1'loading="lazy" />
               </div>
             </div><div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem] block'>
-                <img src={WarehouseWorkerSmallScreen} alt="Warehouse Worker SmallScreen" className=' rounded-[18px]  z-1' />
+                <img src={WarehouseWorkerSmallScreen} alt="Warehouse Worker SmallScreen" className=' rounded-[18px]  z-1'loading="lazy" />
               </div>
             </div><div className='flex justify-center content-center'>
               <div className='MoversSmallScreen md:hidden relative flex w-fit mt-[1.5rem]  block'>
-                <img src={StorageSmallScreen} alt="Storage Small Screen" className=' rounded-[18px] z-1' />
+                <img src={StorageSmallScreen} alt="Storage Small Screen" className=' rounded-[18px] z-1'loading="lazy" />
               </div>
             </div>
   
