@@ -85,7 +85,7 @@ const MainHands  = () => {
           
           
 
-        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap  text-amber-100 hidden md:block pb-4 mb-0  sm:mb-4 mt-8'> Helping Hand Movers</h1>
+        <h1 id='HelpingHandMovers_H1' className='WhiteSpaceNowrap  text-amber-100 hidden md:block pb-7 mb-0  sm:mb-4 mt-[-1rem]'> Helping Hand Movers</h1>
 
             {/* TruckSmallScreen */}
          <div className='flex justify-center content-center mb-3'>

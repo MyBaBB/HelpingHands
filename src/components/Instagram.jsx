@@ -18,13 +18,13 @@ const Instagram = () => {
          </a>
      
       <button onClick={() => window.location.href = 'tel:626-371-4331'}>
-            <div className='OldPhoneImage w-[60px] xxs:[70]px xs:w-[80px] relative  content-center border-2 border-[#614829] flex w-fit rounded-[14px]   '>
+            <div className='OldPhoneImage md:hidden w-[60px] xxs:[70]px xs:w-[80px] relative  content-center border-2 border-[#614829] flex w-fit rounded-[14px]   '>
                <img src={OldPhoneImg} alt="OldPhoneImg" className='rounded-xl' />
         </div>
      </button>
-
-
-
+<div className='relative justify-center content-center mx-auto hidden md:block'>
+ <p className='text-white font-serif text-3xl mt-2  '><u>626-371-4331</u></p>
+ </div>
 
       <a href="https://www.facebook.com/Helpinghandservices626">
          <div className='OurReelsBoxTruck w-[60px] xxs:[70]px xs:w-[80px] relative  border-2 border-[#614829] flex w-fit rounded-[14px]   '>
