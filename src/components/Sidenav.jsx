@@ -31,19 +31,19 @@ const Sidenav = () => {
             <AiOutlineHome size={20}  />
             <span className='pl-4 '> Home</span>
           </a>
-          <a onClick={handleNav} href="#OurPhotos" className='scroll-m-10 text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+          <a onClick={handleNav} href="https://www.instagram.com/helpinghandservices626" className='scroll-m-10 text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
             <FaCameraRetro size={20}  />
-            <span className='pl-4'>Our Photos</span>
+            <span className='pl-4'>Instagram</span>
           </a>
           {/* <a onClick={handleNav} href="#AboutUsh2" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
             <BsPersonRaisedHand size={20}  />
             <span className='pl-4'>About Us</span>
           </a> */}
-          <a onClick={handleNav} href="#Reviews" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+          <a onClick={handleNav} href="https://facebook.com/Helpinghandservices626" className='text-black w-[65%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
           <div className='MovericonPingWrapper w-[22px]'>
           <img src={MovericonPing} alt="Mover Icon" />
          </div>
-            <span className='pl-4'>Reviews</span>
+            <span className='pl-4'>Facebook</span>
           </a>
 
           
