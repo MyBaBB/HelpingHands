@@ -1,0 +1,48 @@
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from 'react';
+
+const Accordian01 = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion01 = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+     
+      <div onClick={toggleAccordion01} 
+      className={`openMenu relative flex justify-center items-center w-full h-full my-4 
+      }`}
+      
+    >
+    
+        
+        <div className='bg-gradient-to-t from-blue-950 to-blue-400  rounded-3xl w-full p-1 m-1 text-left shadow-lg shadow-gray-400 
+        cursor-pointer hover:scale-105 ease-in-out duration-300'>
+        
+          <div className='flex justify-center'>
+            <button  className='text-blue-200 text-base sm:text-2xl p-1 font-extrabold'
+                       style={{ textShadow: '1px 1px 2px black' }}>
+            <span className='absolute left-4 w-8  h-8  bg-gradient-to-b 
+             from-blue-200 to-blue-950 shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
+             style={{ textShadow: '0px -1px 2px black' }}>&#129171;</span>
+ About SEO
+            </button>
+          </div>
+          {isOpen &&
+            <p className='p-4 text-blue-200 sm:text-2xl text-sm  font-sans  'style={{ textShadow: '.5px .5px .5px black' }}>
+              <span>&quot;Search Engine Optimizer&quot;</span>
+              <br />
+              <span>&quot;Become Visible on the web 👀 &quot;</span>
+              <br />
+              &quot;Are you looking for a way to create fast, modern, and SEO-friendly websites?🟢 If so, you should consider using React, the most popular JavaScript library for building interactive user interfaces. React is not only easy to use and maintain, but also SEO-friendly.🟢  With React, you can create dynamic and engaging web pages that can rank well on Google and other search engines.🟢 You can also use a React CMS to manage your content and optimize it. 🟢  Whether you need a landing page, a blog, an e-commerce site, or any other kind of web application, React can help you achieve your goals and boost your online presence. 
+           
+            </p>}
+        </div>
+      </div>
+    
+  );
+};
+
+export default Accordian01
+

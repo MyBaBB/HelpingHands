@@ -13,17 +13,18 @@ const Accordion02 = () => {
         <> 
       <div onClick={toggleAccordion02About} 
       className={`openMenu relative flex justify-center 
-      items-center w-full h-full  mb-2
+      items-center   xs:left-[-.3rem] w-[101%] h-full  mb-2
       }`}
     >
         <div className='AboutUsParagraphAccordion2 md:hidden bg-[#41301b]   rounded-3xl w-[80%] p-2 m-2 shadow-lg shadow-black  mt-2
-        cursor-pointer hover:scale-105 ease-in-out duration-300'>
+        cursor-pointer '>
         
-          <div className=' flex justify-center '>
-            <button  className='text-amber-100  text-base sm:text-2xl  font-extrabold'
+          <div className='relative flex justify-center '>
+            <button  className='text-amber-100  text-base sm:text-2xl w-full  font-extrabold'
                        style={{ textShadow: '1px 1px 2px black' }}>
-            <span className='absolute   text-base md:text-3xl  ' 
-             style={{ textShadow: '-1px -1px 2px black' }}></span>
+             <span className='absolute left-[-4px] top-[-4px]  sm:top-[0px]  w-8  h-8  bg-gradient-to-b 
+             from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
+             style={{ textShadow: '0px -1px 2px black' }}>&#129171;</span>
  About us
             </button>
           </div>
