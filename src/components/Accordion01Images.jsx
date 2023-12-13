@@ -36,7 +36,7 @@ const Accordion01 = () => {
                        style={{ textShadow: '1px 1px 2px black' }}>
             <div className='absolute left-[-5px]  top-[-4px] sm:top-[0px]    w-8  h-8  bg-gradient-to-b 
              from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
-             style={{ textShadow: '0px -1px 2px black' }}>&#129171;</div>
+             style={{ textShadow: '0px -1px 2px black' }}></div>
  Photos
             </button>
           </div>

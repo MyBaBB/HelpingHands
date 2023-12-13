@@ -24,7 +24,7 @@ const Accordion02 = () => {
                        style={{ textShadow: '1px 1px 2px black' }}>
              <span className='absolute left-[-4px] top-[-4px]  sm:top-[0px]  w-8  h-8  bg-gradient-to-b 
              from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
-             style={{ textShadow: '0px -1px 2px black' }}>&#129171;</span>
+             style={{ textShadow: '0px -1px 2px black' }}></span>
  About us
             </button>
           </div>

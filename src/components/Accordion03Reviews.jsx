@@ -18,12 +18,13 @@ const Accordion03 = () => {
     >
         <div className='Accordion03ReviewsWrapper  relative bg-[#41301b]  rounded-3xl w-full xs:w-[97%] sm:w-[95%] mt-2 h-full cursor-pointer '>
         
-          <div  className='flex justify-center mx-auto content-center'>
+          <div  className='flex justify-center mx-auto content-center 
+          pb-[6px] pt-[4px]'>
             <button  className='text-amber-100  text-base sm:text-2xl font-extrabold '
                        style={{ textShadow: '1px 1px 2px black' }}>
              <span className='absolute left-[3px] top-[4px] sm:top-[9px] w-8  h-8  bg-gradient-to-b 
              from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
-             style={{ textShadow: '0px -1px 2px black' }}>&#129171;</span>
+             style={{ textShadow: '0px -1px 2px black' }}></span>
                Reviews
             </button>
           </div>
