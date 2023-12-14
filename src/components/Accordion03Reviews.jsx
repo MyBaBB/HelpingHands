@@ -22,9 +22,9 @@ const Accordion03 = () => {
           pb-[6px] pt-[4px]'>
             <button  className='text-amber-100  text-base sm:text-2xl font-extrabold '
                        style={{ textShadow: '1px 1px 2px black' }}>
-             <span className='absolute left-[3px] top-[4px] sm:top-[9px] w-8  h-8  bg-gradient-to-b 
+             <div className='absolute left-[3px] top-[4px] sm:top-[9px] w-8  h-8  bg-gradient-to-b 
              from-amber-200 to-varDarkBrown shadow-sm  shadow-black  rounded-full pt-[7px] text-4xl ' 
-             style={{ textShadow: '0px -1px 2px black' }}></span>
+             style={{ textShadow: '0px -1px 2px black' }}> <span className='triangle'></span></div>
                Reviews
             </button>
           </div>

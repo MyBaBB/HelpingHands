@@ -60,7 +60,35 @@ body {
     z-index: 50;
 
   }
-    
+    .triangle {
+  position: relative;
+  display: flex;
+  left: 7.9px;
+  background-color: #41301b;
+  top: 1.5px;
+  width: 16px;
+  height: 8.25px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top:.7px double #91785d;
+
+  z-index: 2;
+} 
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: -5.9px;
+  left: calc(50% - 5.5px);
+  width: 11px;
+  height: 11px;
+  background-color:#41301b;
+  transform: rotate(45deg);
+  z-index: 1;
+  box-shadow: 0px 0px 1px 1px #41301b;
+  border-right: 1.5px solid #91785d;
+  border-bottom: 1.5px solid #91785d;
+}
  
 .HelpingHandHeading1{
   font-family: DM_Serif_Display;
@@ -160,7 +188,7 @@ body {
     border: 2px solid #725432;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
-    z-index: 2;
+    z-index: 0;
   }
     .Accordion03ReviewsWrapper {
     font-family: Libre_Baskerville;

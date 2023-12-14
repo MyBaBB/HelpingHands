@@ -9,7 +9,7 @@ import Accordion01Images from './Accordion01Images.jsx'
 import Accordion02About from './Accordion02About.jsx'
 import Accordion03Reviews from './Accordion03Reviews.jsx'
 import Instagram from './Instagram.jsx'
-
+import Copyright from './Copyright.jsx'
 const MainHands  = () => {
   return (
     <div>
@@ -148,6 +148,7 @@ const MainHands  = () => {
                 </p>
                 
                 <Accordion01Images/>
+                <Copyright />
          </article>
 </div>
 
