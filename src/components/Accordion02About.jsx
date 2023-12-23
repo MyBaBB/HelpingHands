@@ -34,11 +34,11 @@ const Accordion02 = () => {
           <article >
 <div className='AboutUsParagraphWrapper  p-1  -mb-[9px] text-center block md:hidden  
   '>
-  <h2  className='AboutUsh2 text-[.75rem]  xxs:text-[.95rem]  xs:text-[1.25rem] sm:text-[1.55rem]   md:text-[1.75rem]   ' >Welcome to Helping Hands Community Services!</h2>
+  <h2  className='AboutUsh2 text-[.75rem]  xxs:text-[.95rem]  xs:text-[1.25rem] sm:text-[1.55rem]   md:text-[1.75rem]   ' >Welcome to XYZ Movers!</h2>
   <hr className='my-2 w-[70%] min-w-[240px] mx-auto'/>
    <p >
    
-  “ We specialize in moving and offer two trucks, a 16ft and a 26ft, both fully insured.🔸Our busiest seasons for Moving are during Summer and Christmas, but we are here to help you all year round.🔸We have a talented crew, which includes a Licensed Electrician.🔸We also offer Property Management Services that include Painting, Custom Woodworking, General Construction and Hauling.🔸We take pride in our work and enjoy helping the folks in our community.”
+   “Welcome to our moving company! We are dedicated to providing you with the best moving experience possible. Our team of experienced professionals is committed to ensuring that your move is smooth, stress-free, and hassle-free. We understand that moving can be a daunting task, which is why we offer a wide range of services to meet your needs. Whether you&apos;re moving across town or across the country, we&apos;ve got you covered. Our goal is to make your move as easy and stress-free as possible, so you can focus on settling into your new home. Thank you for choosing our moving company, and we look forward to working with you!”
    </p>
  </div>
  

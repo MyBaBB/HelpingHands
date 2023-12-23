@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import { useState } from 'react'
 import './App.css'
-import MainHands from "./components/MainHands.jsx"
-import Sidenav from './components/Sidenav.jsx'
+import MainIntro from "./components/MainIntro.jsx"
+import ThreeBars from './components/ThreeBars.jsx'
  
  
 
@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-   <Sidenav /> 
-   <MainHands />
+   <ThreeBars /> 
+   <MainIntro />
     </>
   )
 }
